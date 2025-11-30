@@ -29,3 +29,4 @@ export function InteractiveRobotSpline({ scene, className }: InteractiveRobotSpl
     </Suspense>
   );
 }
+
