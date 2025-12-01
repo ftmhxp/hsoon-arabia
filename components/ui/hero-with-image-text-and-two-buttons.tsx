@@ -27,26 +27,26 @@ function Hero() {
           {/* Text Content */}
           <div className="flex flex-col justify-center space-y-8 text-center">
             <div className="space-y-6">
-              <Badge variant="secondary" className="w-fit mx-auto px-4 py-2 text-sm font-medium">
+              <Badge variant="secondary" className="w-fit mx-auto px-4 py-2 text-sm font-medium animate-appear opacity-0 delay-100">
               شريكك في المشاريع الإنشائية المتكاملة
               </Badge>
 
               <div className="space-y-4">
-                <h1 className="text-5xl md:text-6xl lg:text-10xl lg:text-center font-bold tracking-tight text-gray-900 leading-tight">
+                <h1 className="text-5xl md:text-6xl lg:text-10xl lg:text-center font-bold tracking-tight text-gray-900 leading-tight animate-appear opacity-0 delay-300">
                   حصون العربية
                 </h1>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl lg:text-center font-semibold text-gray-700 tracking-tight">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl lg:text-center font-semibold text-gray-700 tracking-tight animate-appear opacity-0 delay-300">
                   لأنظمة MEP الإنشائية
                 </h2>
               </div>
 
-              <p className="text-lg md:text-xl leading-relaxed lg:text-center text-gray-600 max-w-2xl mx-auto lg:ml-auto lg:mr-0">
+              <p className="text-lg md:text-xl leading-relaxed lg:text-center text-gray-600 max-w-2xl mx-auto lg:ml-auto lg:mr-0 animate-appear opacity-0 delay-500">
                 نقدم حلولاً هندسية شاملة بأعلى معايير الجودة والسلامة لتحقيق رؤيتك الإنشائية.
               </p>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 lg:gap-20 justify-center pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 lg:gap-20 justify-center pt-4 animate-appear opacity-0 delay-700">
               <Button size="lg" className="gap-3 bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
                 ابدأ مشروعك
                 <MoveRight className="w-5 h-5" />
@@ -59,7 +59,7 @@ function Hero() {
           </div>
 
           {/* 3D Robot Section */}
-          <div className="relative">
+          <div className="relative animate-appear opacity-0 delay-700">
             <div className="aspect-square max-w-lg mx-auto relative">
               {/* Decorative elements */}
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-green-500/20 rounded-full blur-3xl -z-10"></div>
