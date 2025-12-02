@@ -39,7 +39,6 @@ function Hero() {
                   لأنظمة MEP الإنشائية
                 </h2>
               </div>
-
               <p className="text-lg md:text-xl leading-relaxed lg:text-center text-gray-600 max-w-2xl mx-auto lg:ml-auto lg:mr-0 animate-appear opacity-0 delay-500">
                 نقدم حلولاً هندسية شاملة بأعلى معايير الجودة والسلامة لتحقيق رؤيتك الإنشائية.
               </p>

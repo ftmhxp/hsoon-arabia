@@ -1,6 +1,7 @@
-import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { BorderTrail } from "@/components/ui/border-trail";
+import { SpotlightCard } from "@/components/ui/spotlight-card";
 import { CheckCircle, Award, Users, Zap, Wrench, Shield } from "lucide-react";
 
 export function AboutSection() {
@@ -21,7 +22,14 @@ export function AboutSection() {
 
         {/* Mission & Vision */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
-          <Card className="p-8">
+          <SpotlightCard className="relative bg-white border border-primary/10 shadow-lg overflow-hidden">
+            <BorderTrail
+              style={{
+                boxShadow:
+                  "0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)",
+              }}
+              size={100}
+            />
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                 <Award className="w-6 h-6 text-primary" />
@@ -29,12 +37,19 @@ export function AboutSection() {
               <h3 className="text-2xl font-bold">رؤيتنا</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              أن نكون الشركة الرائدة في المنطقة العربية في مجال أنظمة MEP الإنشائية، 
+              أن نكون الشركة الرائدة في المنطقة العربية في مجال أنظمة MEP الإنشائية،
               ونقدم حلولاً مبتكرة تلبي احتياجات عملائنا وتتجاوز توقعاتهم.
             </p>
-          </Card>
+          </SpotlightCard>
 
-          <Card className="p-8">
+          <SpotlightCard className="relative bg-white border border-primary/10 shadow-lg overflow-hidden">
+            <BorderTrail
+              style={{
+                boxShadow:
+                  "0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)",
+              }}
+              size={100}
+            />
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                 <CheckCircle className="w-6 h-6 text-primary" />
@@ -42,46 +57,10 @@ export function AboutSection() {
               <h3 className="text-2xl font-bold">رسالتنا</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              تقديم خدمات عالية الجودة في مجال أنظمة MEP الإنشائية باستخدام أحدث 
+              تقديم خدمات عالية الجودة في مجال أنظمة MEP الإنشائية باستخدام أحدث
               التقنيات والمعايير العالمية، مع الالتزام بالسلامة والاستدامة البيئية.
             </p>
-          </Card>
-        </div>
-
-        {/* Services Overview */}
-        <div className="mb-20">
-          <h2 className="text-3xl font-bold text-center mb-12">خدماتنا الرئيسية</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Zap className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">الكهرباء الإنشائية</h3>
-              <p className="text-muted-foreground">
-                تصميم وتركيب أنظمة الكهرباء بأحدث المعايير والتقنيات العالمية
-              </p>
-            </Card>
-
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Wrench className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">الميكانيكا</h3>
-              <p className="text-muted-foreground">
-                أنظمة التكييف والتهوية والسباكة بكفاءة عالية وتوفير الطاقة
-              </p>
-            </Card>
-
-            <Card className="p-6 text-center">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-red-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">مكافحة الحريق</h3>
-              <p className="text-muted-foreground">
-                أنظمة إطفاء الحريق والكشف المبكر لضمان السلامة والأمان
-              </p>
-            </Card>
-          </div>
+          </SpotlightCard>
         </div>
 
         {/* Why Choose Us */}
