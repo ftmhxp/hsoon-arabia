@@ -7,7 +7,7 @@ import { cn } from "../../lib/utils";
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center">
-      <Navbar className="top-2" />
+      <Navbar className="top-0" />
 
     </div>
   );
@@ -32,7 +32,7 @@ export function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200", className)}
     >
       {/* Desktop Layout */}
-      <div className="hidden lg:flex max-w-7xl mx-auto items-center justify-between px-4 py-4">
+      <div className="hidden lg:flex max-w-7xl mx-auto lg:mt-0 items-center justify-between">
         
         {/* Logo on the right */}
         <div className="w-10 h-10">

@@ -34,7 +34,7 @@ export function AboutSection() {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                 <Award className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold">رؤيتنا</h3>
+              <h3 className="text-2xl font-bold mr-4">رؤيتنا</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               أن نكون الشركة الرائدة في المنطقة العربية في مجال أنظمة MEP الإنشائية،
@@ -54,7 +54,7 @@ export function AboutSection() {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                 <CheckCircle className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold">رسالتنا</h3>
+              <h3 className="text-2xl font-bold mr-4">رسالتنا</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               تقديم خدمات عالية الجودة في مجال أنظمة MEP الإنشائية باستخدام أحدث
@@ -64,9 +64,17 @@ export function AboutSection() {
         </div>
 
         {/* Why Choose Us */}
-        <div className="bg-white rounded-2xl p-8 lg:p-12">
-          <h2 className="text-3xl font-bold text-center mb-12">لماذا تختار حصون العربية؟</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <SpotlightCard className="relative bg-white border border-primary/10 shadow-lg overflow-hidden">
+          <BorderTrail
+            style={{
+              boxShadow:
+                "0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)",
+            }}
+            size={100}
+          />
+          <div className="p-8 lg:p-12">
+            <h2 className="text-3xl font-bold text-center mb-12">لماذا تختار حصون العربية؟</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-primary" />
@@ -107,7 +115,8 @@ export function AboutSection() {
               </p>
             </div>
           </div>
-        </div>
+          </div>
+        </SpotlightCard>
 
         {/* Call to Action */}
         <div className="text-center mt-16">
