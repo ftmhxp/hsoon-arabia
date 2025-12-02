@@ -22,7 +22,7 @@ function Hero() {
           `,
         }}
       />
-      <div className="container mx-auto mt-24 px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
           <div className="flex flex-col justify-center space-y-8 text-center">
