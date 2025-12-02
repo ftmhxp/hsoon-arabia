@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { InteractiveRobotSpline } from "@/components/ui/interactive-3d-robot";
 
 function Hero() {
-  const ROBOT_SCENE_URL = "https://prod.spline.design/QEAWSPZFLyq0WhhR/scene.splinecode";
+  const ROBOT_SCENE_URL = "https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode";
 
   return (
     <div className="w-full py-20 lg:py-40 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">

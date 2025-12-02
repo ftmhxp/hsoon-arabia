@@ -117,22 +117,6 @@ export function AboutSection() {
           </div>
           </div>
         </SpotlightCard>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <h2 className="text-2xl font-bold mb-4">هل تحتاج إلى خدمات MEP لمشروعك؟</h2>
-          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            تواصل معنا اليوم للحصول على استشارة مجانية وتقدير دقيق لاحتياجات مشروعك
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="px-8">
-              احصل على استشارة مجانية
-            </Button>
-            <Button size="lg" variant="outline" className="px-8">
-              عرض أعمالنا
-            </Button>
-          </div>
-        </div>
       </div>
     </div>
   );
