@@ -101,7 +101,7 @@ export function Navbar({ className }: { className?: string }) {
 
 
         {/* Action Button on the left */}
-        <button className="bg-white text-black border border-black rounded-full px-4 py-2 transition-colors duration-200 hover:bg-black hover:text-white text-sm font-medium">
+        <button className="bg-white text-black border border-black rounded-lg px-4 py-2 transition-colors duration-200 hover:bg-black hover:text-white text-sm font-medium">
           احصل على عرض
         </button>
       </div>
