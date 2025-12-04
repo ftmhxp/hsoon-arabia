@@ -51,51 +51,11 @@ export function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={() => setActive(null)} active={active} item="من نحن">
             {null}
           </MenuItem>
-          <MenuItem setActive={setActive} active={active} item="الخدمات">
-            <div className="text-sm grid grid-cols-2 gap-10 p-4 max-w-2xl">
-              <ProductItem
-                title="الكهرباء الإنشائية"
-                href="/services/electrical"
-                src="https://images.unsplash.com/photo-1618522284999-3430d5f5f2da?w=400&h=200&fit=crop&crop=center"
-                description="نبنلاب نمبلن يسمنبمت سينب بت بتمسيبتز منيمتب سينبيتسم."
-              />
-              <ProductItem
-                title="الميكانيكا"
-                href="/services/mechanical"
-                src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=400&h=200&fit=crop&crop=center"
-                description="نبنلاب نمبلن يسمنبمت سينب بت بتمسيبتز منيمتب سينبيتسم."
-              />
-              <ProductItem
-                title="مكافحة الحريق"
-                href="/services/fire-safety"
-                src="https://images.unsplash.com/photo-1760139546356-0a90390364d3?w=400&h=200&fit=crop&crop=center"
-                description="نبنلاب نمبلن يسمنبمت سينب بت بتمسيبتز منيمتب سينبيتسم."
-              />
-              <ProductItem
-                title="السباكة والصرف"
-                href="/services/plumbing"
-                src="https://images.unsplash.com/photo-1639600993675-2281b2c939f0?w=400&h=200&fit=crop&crop=center"
-                description="نبنلاب نمبلن يسمنبمت سينب بت بتمسيبتز منيمتب سينبيتسم."
-              />
-              <ProductItem
-                title="المصاعد"
-                href="/services/elevators"
-                src="https://images.unsplash.com/photo-1566714865935-725933a78973?w=400&h=200&fit=crop&crop=center"
-                description="نبنلاب نمبلن يسمنبمت سينب بت بتمسيبتز منيمتب سينبيتسم."
-              />
-              <ProductItem
-                title="البيوت الذكية"
-                href="/services/smart-homes"
-                src="https://images.unsplash.com/photo-1706774609219-56c61f8b3c51?w=400&h=200&fit=crop&crop=center"
-                description="نبنلاب نمبلن يسمنبمت سينب بت بتمسيبتز منيمتب سينبيتسم."
-              />
-            </div>
+          <MenuItem setActive={() => setActive(null)} active={active} item="الخدمات">
+            {null}
           </MenuItem>
-          <MenuItem setActive={setActive} active={active} item="اتصل بنا">
-            <div className="flex flex-col gap-4 text-sm">
-              <HoveredLink href="/deals">العروض</HoveredLink>
-              <HoveredLink href="/consultation">الاستشارات</HoveredLink>
-            </div>
+          <MenuItem setActive={() => setActive(null)} active={active} item="اتصل بنا">
+            {null}
           </MenuItem>
         </Menu>
 

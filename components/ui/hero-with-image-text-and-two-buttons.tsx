@@ -4,11 +4,9 @@ import { Button } from "@/components/ui/button";
 
 import { Badge } from "@/components/ui/badge";
 
-import { InteractiveRobotSpline } from "@/components/ui/interactive-3d-robot";
+import { LandingAccordionItem } from "@/components/ui/interactive-image-accordion";
 
 function Hero() {
-  const ROBOT_SCENE_URL = "https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode";
-
   return (
     <div className="w-full py-20 lg:py-40 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
       {/* Enhanced Background */}
@@ -57,18 +55,15 @@ function Hero() {
             </div>
           </div>
 
-          {/* 3D Robot Section */}
+          {/* Interactive Image Accordion Section */}
           <div className="relative animate-appear opacity-0 delay-700">
-            <div className="aspect-square max-w-lg mx-auto relative">
+            <div className="max-w-lg mx-auto relative">
               {/* Decorative elements */}
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-green-500/20 rounded-full blur-3xl -z-10"></div>
               <div className="absolute inset-0 bg-white/50 backdrop-blur-sm rounded-3xl shadow-2xl border border-white/20"></div>
 
-              <div className="relative w-full h-full p-8">
-                <InteractiveRobotSpline
-                  scene={ROBOT_SCENE_URL}
-                  className="w-full h-full"
-                />
+              <div className="relative w-full p-4">
+                <LandingAccordionItem />
               </div>
             </div>
           </div>
