@@ -2,6 +2,7 @@ import { NavbarDemo } from "../components/ui/demo-navbar";
 import { Hero } from "../components/ui/hero-with-image-text-and-two-buttons";
 import { AboutSection } from "../components/ui/about-section";
 import { ServicesSection } from "../components/ui/services-section";
+import { ContactSection } from "../components/blocks/contact-section";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <ServicesSection />
+      <ContactSection />
     </main>
   );
 }
